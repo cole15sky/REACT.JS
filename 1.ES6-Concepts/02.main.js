@@ -38,3 +38,33 @@ const product = {
   console.log(description);
 
 
+
+  //03
+  //----------Normal use 
+  const array = [1, 2, 3, 4];
+  
+  let getArrayFirstValue = array[0];
+  let getArraySecondValue = array[1];
+  
+  console.log(getArrayFirstValue, getArraySecondValue);
+  
+
+  //--------------Vs De-structuring
+  const [
+    arrayFirstElement,
+    arraySecondElement,
+    arrayThirdElement,
+    arrayFourthElement,
+  ] = array;
+  
+  console.log(
+    arrayFirstElement,
+    arraySecondElement,
+    arrayThirdElement,
+    arrayFourthElement
+  );
+
+  
+
+
+  
