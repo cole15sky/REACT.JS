@@ -1,4 +1,4 @@
-
+//01
 //De-structuring
 
 const id = 1;
@@ -18,4 +18,23 @@ const product = {
     rating,
   };
  console.log(product);
+
+
+
+//02
+//-------------De-structuring in objects.
+
+ const product2 = {
+    description: "Product 2 description",
+    id,
+    productName,
+    rating,
+  };
+  
+  // const getProductTwoDescription = product2.description;
+  // console.log(getProductTwoDescription);
+  
+  const { description } = product2; //cmd+space with const (shortcut key)
+  console.log(description);
+
 
