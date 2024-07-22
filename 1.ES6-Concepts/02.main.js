@@ -1,4 +1,4 @@
-//01
+ //01
 //De-structuring
 
 const id = 1;
@@ -64,7 +64,7 @@ const product = {
     arrayFourthElement
   );
 
-  
+
 
 
   
