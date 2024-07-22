@@ -5,7 +5,7 @@ import Welcome from './components/welcome';
 
 
 function App() {
-  return (
+  return( 
     <div className="App">
       <Greet></Greet> 
      <Welcome />

@@ -1,0 +1,17 @@
+ All the component will be inside the src folder.
+ -------------Class based components
+In React, a class-based component is defined using the ES6 class syntax. These components can have state and lifecycle methods, making them powerful for managing complex UI logic.
+ before react 16.8 class components weren the only way to track state and lifecycle on a react component.
+
+
+ with the addition of hooks, functions components  are now almost equivalent to class components.
+
+
+
+ --------------Functional components
+ 
+ Functional Component is one way to create components in a React Application. 
+ React.js Functional Components helps to create UI components in a Functional and more concise way.
+ ReactJS Functional components are some of the more common components that will come across while working in React. 
+ These are simply JavaScript functions. We can create a functional component in React by writing a JavaScript function. These functions may or may not receive data as parameters.
+  In the functional Components, the return value is the JSX code to render to the DOM tree.
