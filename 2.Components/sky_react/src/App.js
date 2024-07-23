@@ -7,10 +7,10 @@ import Greet from './components/Greet';
 
 function App() {
   return (
-    <div className="App">
-      <Greet name="Aakash" />
-      <Greet name="Michael" />
-      <Greet name="Colin" />
+    <div className="App"> 
+      <Greet name="Aakash" heroName="Spiderman" />
+      <Greet name="Michael" heroName ="Superman" />
+      <Greet name="Colin" heroName="Ironman" />
       {/* <Welcome />
       <Hello /> */}
     </div>

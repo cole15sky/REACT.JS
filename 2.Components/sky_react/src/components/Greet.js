@@ -5,7 +5,7 @@ import React from 'react'
 
 const Greet = (props) => {
 console.log(props);
-return <h1> Hello I'm {props.name} </h1>
+return <h1> Hello I'm {props.name} also known as {props.heroName}</h1>
 }
 
 
