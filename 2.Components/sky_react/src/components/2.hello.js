@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Hello = () =>{
+    
 //     return(
 //         <div className ='dummyClass>
 //             <h1> Hey,this is Aakash.</h1>
@@ -13,7 +14,7 @@ return React.createElement('div',
 )
 
 }
-export default Hello
+export default Hello;
 
 
 // Basically each jsx element is just syntatic sugar for calling react.create element

@@ -1,19 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/practice';
-import Welcome from './components/welcome';
-import Hello from './components/hello';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import Hello from './components/Hello';
 
 
 function App() {
-  return( 
+  return (
     <div className="App">
-      <greet/>
-      <greet name="Michael" />
-      <greet name="Colin"/>
-     {/* <Welcome /> */}
-     <Hello/>
-         </div>
+      <Greet />
+      <Greet name="Michael" />
+      <Greet name="Colin" />
+      <Welcome />
+      <Hello />
+    </div>
   );
 }
 

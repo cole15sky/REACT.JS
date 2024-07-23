@@ -8,8 +8,6 @@ import React, { Component } from 'react';
 //     }
 // }
 
-// const Welcome = (props) => {
-// console.log(props);
-//  return <h1> Hello This is Aakash.</h1>
+
 
 export default Welcome 
