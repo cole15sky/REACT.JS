@@ -13,6 +13,7 @@ function App() {
       <greet name="Colin"/>
      {/* <Welcome /> */}
      <Hello/>
+     
          </div>
   );
 }
