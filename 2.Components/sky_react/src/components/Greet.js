@@ -4,10 +4,17 @@ import React from 'react'
 // }
 
 const Greet = (props) => {
-console.log(props);
-return <h1> Hello I'm {props.name} also known as {props.heroName}</h1>
+    console.log(props)
+    return(
+        <div>
+            <h1>
+                Hello I'm {props.name} also known as {props.heroName}
+            </h1>
+            {props.children}
+        </div>
+    )
 }
-
+   
 
 
 //NOTE: Here, we are exporting components as default export from practice.js

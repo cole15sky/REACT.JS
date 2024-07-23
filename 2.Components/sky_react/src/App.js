@@ -8,7 +8,9 @@ import Greet from './components/Greet';
 function App() {
   return (
     <div className="App"> 
-      <Greet name="Aakash" heroName="Spiderman" />
+      <Greet name="Aakash" heroName="Spiderman" >
+        <p> This is children props</p>
+      </Greet>
       <Greet name="Michael" heroName ="Superman" />
       <Greet name="Colin" heroName="Ironman" />
       {/* <Welcome />
