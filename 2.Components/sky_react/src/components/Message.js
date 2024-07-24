@@ -7,13 +7,20 @@ class Message extends Component {
             message: 'Welcome Guys.'
         }
     }
+
+    changeMessage(){
+        this.setState({
+            message:"Thank you for your time."
+
+        })
+    }
     render() {
         return (
             <div>
                 <h1>
                     {this.state.message}
                 </h1>
-                <button> Check Me!</button>
+                <button onClick={() => this.changeMessage()}> Check Me!</button>
             </div>
 
         )
