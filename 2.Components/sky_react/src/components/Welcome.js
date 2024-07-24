@@ -2,11 +2,11 @@
 //i.e (React and component class from react as; and we define the class)
 import React, { Component } from 'react';
 
-// class Welcome extends Component {
-//     render() {
-//         return <h1>Class Components.</h1>;
-//     }
-// }
+class Welcome extends Component {
+    render() {
+        return <h1>Welcome {this.props.name} as known as {this.props.heroName}</h1>;
+    }
+}
 
 
 
