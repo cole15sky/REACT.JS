@@ -3,6 +3,7 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
+import Counter from './components/Counter';
 // import Hello from './components/Hello';
 
 
@@ -20,8 +21,9 @@ function App() {
       <Welcome name="Jonas" heroName="Batman"/>
       <Welcome name="Keith" heroName="Monkeyman"/> */}
 
-       <Message />
+       {/* <Message /> */}
       {/* <Hello /> */}
+      <Counter />
     </div>
   );
 }
