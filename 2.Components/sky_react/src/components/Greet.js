@@ -3,7 +3,8 @@ import React from 'react'
 //     return <h1> Hello I'm learing React.</h1>
 // }
 
-const Greet = ({name,heroName}) => {
+const Greet = (props) => {
+    const {name,heroName} = props
     // console.log(props)
     return(
         <div>
