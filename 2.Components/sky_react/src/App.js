@@ -10,15 +10,15 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App"> 
-      {/* <Greet name="Aakash" heroName="Spiderman" >
-        <p> This is children props</p>
+      <Greet name="Aakash" heroName="Gentleman" />
+        {/* <p> This is children props</p>
         <button> Click me</button>
       </Greet>
       <Greet name="Michael" heroName ="Superman" />
       <Greet name="Colin" heroName="Ironman" /> */}
 
-      <Welcome name="Aakash" heroName="Spiderman" />
-      {/* <Welcome name="Jonas" heroName="Batman"/>
+      {/* <Welcome name="Aakash" heroName="Spiderman" />
+      <Welcome name="Jonas" heroName="Batman"/>
       <Welcome name="Keith" heroName="Monkeyman"/> */}
 
        {/* <Message /> */}
