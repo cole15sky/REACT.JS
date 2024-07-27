@@ -1,4 +1,5 @@
 import React from 'react'
+import UserCard from './UserCard';
 
 function UserList() {
 
@@ -24,11 +25,7 @@ let data = [
   return (
     <div>
         {data.map(({name,email,rollNo}) =>(
-                <div>
-        <h1>{name}</h1>
-        <p>{rollNo}</p>
-        <p>{email}</p>
-        </div>
+           <UserCard name={name} email={email} rollNo={rollNo}/>
 
             ))}
         
