@@ -1,6 +1,10 @@
 import React from 'react'
 
 
+function handleRegister(event){
+    event.preventDefault();  //Don't reload the screen on calling function. 
+    console.log("Hello Check form");
+}
 
 function Form(){
     return(
@@ -14,3 +18,10 @@ function Form(){
         </div>
     )
 }
+
+
+
+
+
+
+export default Form;
